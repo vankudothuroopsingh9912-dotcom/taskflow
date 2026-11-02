@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "_id": "65b1c9a01f4c3a2b1098abcd",
+      "name": "Alex Morgan",
+      "email": "alex@taskflow.dev",
+      "password": "$2b$10$Dmvvc8rsURJyjpTFMK8noOIstMUs3bZXQDVsyMz7blUSER/Z1pITS",
+      "avatar": "/src/assets/images/avatar_alex_morgan_1793612521566.jpg",
+      "role": "Senior Full Stack Engineer",
+      "createdAt": "2026-10-19T09:52:03.174Z",
+      "updatedAt": "2026-11-01T09:52:03.176Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "65b1c9a01f4c3a2b1098e001",
+      "user": "65b1c9a01f4c3a2b1098abcd",
+      "title": "Architect JWT Authentication and Refresh Middleware",
+      "description": "Implement token signing with 24-hour expiration, Bearer extraction, and role authorization guard for Express routes.",
+      "status": "Done",
+      "priority": "High",
+      "dueDate": "2026-10-31T09:52:03.176Z",
+      "createdAt": "2026-10-25T09:52:03.176Z",
+      "updatedAt": "2026-10-31T09:52:03.176Z"
+    },
+    {
+      "_id": "65b1c9a01f4c3a2b1098e002",
+      "user": "65b1c9a01f4c3a2b1098abcd",
+      "title": "Design TaskFlow SaaS Responsive Dashboard",
+      "description": "Build metric statistics cards with completion rate gauge, upcoming deadline counter, and quick action buttons.",
+      "status": "Done",
+      "priority": "Medium",
+      "dueDate": "2026-11-01T09:52:03.176Z",
+      "createdAt": "2026-10-27T09:52:03.176Z",
+      "updatedAt": "2026-11-01T09:52:03.176Z"
+    },
+    {
+      "_id": "65b1c9a01f4c3a2b1098e003",
+      "user": "65b1c9a01f4c3a2b1098abcd",
+      "title": "Optimize MongoDB Compound Indexing on User and DueDate",
+      "description": "Add compound indices { user: 1, status: 1 } and { user: 1, dueDate: 1 } to accelerate high-volume query execution.",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-11-03T09:52:03.176Z",
+      "createdAt": "2026-10-29T09:52:03.176Z",
+      "updatedAt": "2026-11-01T09:52:03.176Z"
+    },
+    {
+      "_id": "65b1c9a01f4c3a2b1098e004",
+      "user": "65b1c9a01f4c3a2b1098abcd",
+      "title": "Implement Multi-Criteria Filter and Search Pipeline",
+      "description": "Support real-time text matching on task titles and descriptions with priority segmentation and status tab counters.",
+      "status": "In Progress",
+      "priority": "Medium",
+      "dueDate": "2026-11-05T09:52:03.176Z",
+      "createdAt": "2026-10-30T09:52:03.176Z",
+      "updatedAt": "2026-11-01T09:52:03.176Z"
+    },
+    {
+      "_id": "65b1c9a01f4c3a2b1098e005",
+      "user": "65b1c9a01f4c3a2b1098abcd",
+      "title": "Conduct Automated Cross-Browser and WCAG Accessibility Audit",
+      "description": "Verify 4.5:1 text contrast ratios, visible keyboard focus indicators, and screen reader labels for dialog modals.",
+      "status": "Todo",
+      "priority": "Medium",
+      "dueDate": "2026-11-07T09:52:03.176Z",
+      "createdAt": "2026-10-31T09:52:03.176Z",
+      "updatedAt": "2026-10-31T09:52:03.176Z"
+    },
+    {
+      "_id": "65b1c9a01f4c3a2b1098e006",
+      "user": "65b1c9a01f4c3a2b1098abcd",
+      "title": "Prepare Docker Compose and Production Deployment Manifests",
+      "description": "Configure multi-stage container build with node:22-alpine, env secrets injection, and healthcheck probe endpoints.",
+      "status": "Todo",
+      "priority": "Low",
+      "dueDate": "2026-11-09T09:52:03.176Z",
+      "createdAt": "2026-11-01T09:52:03.176Z",
+      "updatedAt": "2026-11-01T09:52:03.176Z"
+    }
+  ]
+}

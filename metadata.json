@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow - MERN Stack Task Management System",
+  "description": "Production-grade MERN Stack Task Management System featuring JWT auth, full task CRUD, priority queues, deadline monitoring, and role-based metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
